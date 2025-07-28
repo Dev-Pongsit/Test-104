@@ -1,5 +1,6 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  output: 'static',
+  base: '/Test-104/' // เปลี่ยนให้ตรงกับชื่อ repository เช่น '/Test-104/'
+});
